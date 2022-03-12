@@ -5,7 +5,13 @@ const useFetch = (url) => {
 
     useEffect(() => {
         const getData = async () => {
-            const data = await (await fetch(url)).json();
+            const data = await (
+                await fetch(url, {
+                    headers: {
+                        Accept: 'application/json',
+                    },
+                })
+            ).json();
             setFetchData(data);
         };
         getData();
