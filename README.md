@@ -9,9 +9,11 @@
 > json-server 로 만든 가상의 서버에서 대화 목록을 가져와 대화 목록을 화면에 출력한 후
 > 대화에 참여한 사용자가 메시지를 전송할 수 있도록 하는 페이지 제작.
 
+
 <br/>
 
 ## 🙋‍♀️🙋‍♂️ 팀원
+
 
 <table>
 <thead>
@@ -201,7 +203,12 @@ $ npm run start:dev || yarn start:dev
 
  <img src='https://user-images.githubusercontent.com/93258739/153691138-ae9da50d-ad2b-46bb-afdd-efe0debc3717.gif' alt="gif" />
 
-> <br/>
+4. 메시지 전송 시 자동 스크롤 
+
+![ezgif-2-9d56bd88c5](https://user-images.githubusercontent.com/43867711/153703977-674e70e2-fabc-4bc1-9d40-f4347eea6214.gif)
+![ezgif-2-31d138df56](https://user-images.githubusercontent.com/43867711/153703984-fd39f566-a2fc-44b1-bb04-8c43695735ed.gif)
+
+ <br/>
 
 ## 💡 과제 후기
 
