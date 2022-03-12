@@ -11,11 +11,9 @@ const Message = (props) => {
             <S.ProfileImage src={props.profileImage} />
             <S.UserInfo>
                 <S.UserInfoDiv>
-                    {currentUser === props.userName ? (
-                        <S.UserName>{props.userName} *</S.UserName>
-                    ) : (
-                        <S.UserName>{props.userName}</S.UserName>
-                    )}
+                    <S.UserName>
+                        {props.userName} {currentUser === props.userName && '*'}
+                    </S.UserName>
 
                     <S.DateSpan> {props.date}</S.DateSpan>
                 </S.UserInfoDiv>

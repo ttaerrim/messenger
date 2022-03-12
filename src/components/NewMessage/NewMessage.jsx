@@ -74,7 +74,7 @@ const NewMessage = ({ MsgBox }) => {
 
     useEffect(() => {
         scrollHandler();
-    }, [messageData, scrollHeight]);
+    }, [scrollHeight]);
 
     useEffect(() => {
         if (replyInput) {
