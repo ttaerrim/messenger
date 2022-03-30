@@ -30,13 +30,12 @@ export const UserInput = styled.textarea`
         props.scrollHeight > 48 ? props.scrollHeight + 'px' : 48 + 'px'};
     line-height: 24px;
     max-height: 230px;
-    border: {
-        1px solid ${COLOR.INPUT_LIGHTGRAY};
-        radius: 2px;
-    }
+    border: 1px solid ${COLOR.INPUT_LIGHTGRAY};
+    border-radius: 2px;
+
     resize: none;
     overflow-y: hidden;
-    
+
     &::placeholder {
         color: #dedee0;
     }

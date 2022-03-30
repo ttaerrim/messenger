@@ -98,16 +98,14 @@ const NewMessage = ({ MsgBox }) => {
                     scrollHeight={scrollHeight}
                     ref={inputRef}
                 />
-                <S.ButtonDiv>
-                    <S.SendButton
-                        type="submit"
-                        isTyping={typingCheckHandler()}
-                        color={COLOR.BUTTON_BLUE}
-                        size="mediumSquare"
-                    >
-                        <FiSend />
-                    </S.SendButton>
-                </S.ButtonDiv>
+                <S.SendButton
+                    type="submit"
+                    isTyping={typingCheckHandler()}
+                    color={COLOR.BUTTON_BLUE}
+                    size="mediumSquare"
+                >
+                    <FiSend />
+                </S.SendButton>
             </S.UserForm>
         </S.UserFormBox>
     );
