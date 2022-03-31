@@ -6,8 +6,7 @@ export const UserFormBox = styled.div`
     bottom: 0;
     display: flex;
     width: 97%;
-    height: auto;
-    align-items: center;
+    align-items: flex-end;
     margin: auto 1.5%;
     padding-bottom: 10px;
     background-color: ${COLOR.BACK_GROUND_GREY};
@@ -16,22 +15,22 @@ export const UserFormBox = styled.div`
 export const UserForm = styled.form`
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
     height: 100%;
 `;
 
 export const UserInput = styled.textarea`
     position: relative;
-    bottom: 0;
+    bottom: 0px;
     padding: 10px;
     width: 100%;
-    height: ${(props) =>
-        props.scrollHeight > 48 ? props.scrollHeight + 'px' : 48 + 'px'};
     line-height: 24px;
     max-height: 230px;
     border: 1px solid ${COLOR.INPUT_LIGHTGRAY};
     border-radius: 2px;
+    height: ${(props) =>
+        props.scrollHeight > 48 ? props.scrollHeight + 'px' : 48 + 'px'};
 
     resize: none;
     overflow-y: hidden;
@@ -50,6 +49,7 @@ export const UserInput = styled.textarea`
 
 export const ButtonDiv = styled.div``;
 export const SendButton = styled(Button)`
+    float: right;
     position: absolute;
     right: 0px;
     bottom: 0px;
