@@ -102,3 +102,15 @@ $ npm run start || yarn start
 
 ![ezgif-2-9d56bd88c5](https://user-images.githubusercontent.com/43867711/153703977-674e70e2-fabc-4bc1-9d40-f4347eea6214.gif)
 ![ezgif-2-31d138df56](https://user-images.githubusercontent.com/43867711/153703984-fd39f566-a2fc-44b1-bb04-8c43695735ed.gif)
+
+## 담당 기능
+
+- 메시지 답장 기능 - redux 사용해 전역 상태로 관리
+- json-server 사용해 초기 데이터 관리
+- 모달 창
+- 배포
+
+## 배운 점
+
+- `redux` 를 프로젝트에 도입해 전역적으로 상태 관리를 할 수 있었다.
+- Github Issue 관리를 통해 프로젝트 일정 관리 및 수립을 편리하게 할 수 있다.
