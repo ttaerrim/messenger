@@ -1,6 +1,6 @@
 <h1 align="center"> 메신저 과제 </h1>
 
-<h3 align="center"> 서비스 링크: https://swit-messenger-app.herokuapp.com</h3>
+<h3 align="center"> <strike>서비스 링크: https://swit-messenger-app.herokuapp.com</strike></h3>
 
 <p align="center"><img width="800" src="https://user-images.githubusercontent.com/43867711/158022840-5a7038eb-3d58-429c-8ca8-90ad224800cd.png" /></p>
 
